@@ -1,0 +1,388 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A1
+U 1 1 5E8CA977
+P 1950 3250
+F 0 "A1" H 1950 2161 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 1950 2070 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 1950 3250 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 1950 3250 50  0001 C CNN
+	1    1950 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2250 2050 2200
+Wire Wire Line
+	2050 2200 2450 2200
+Wire Wire Line
+	2450 2200 2450 1650
+Wire Wire Line
+	2450 2750 2500 2750
+Wire Wire Line
+	2500 2750 2500 1800
+Wire Wire Line
+	2500 1800 2300 1800
+Wire Wire Line
+	2300 1800 2300 1650
+Wire Wire Line
+	1450 3650 1400 3650
+Wire Wire Line
+	1400 3650 1400 1650
+Wire Wire Line
+	1450 3950 1350 3950
+Wire Wire Line
+	1350 3950 1350 1700
+Wire Wire Line
+	1350 1700 1550 1700
+Wire Wire Line
+	1550 1700 1550 1650
+Wire Wire Line
+	1700 1650 1700 1750
+Wire Wire Line
+	1700 1750 1300 1750
+Wire Wire Line
+	1300 1750 1300 3750
+Wire Wire Line
+	1300 3750 1450 3750
+Wire Wire Line
+	1850 1650 1850 1800
+Wire Wire Line
+	1850 1800 1250 1800
+Wire Wire Line
+	1250 1800 1250 3850
+Wire Wire Line
+	1250 3850 1450 3850
+Wire Wire Line
+	2000 1650 2000 1750
+Wire Wire Line
+	2050 4250 2550 4250
+Wire Wire Line
+	2550 4250 2550 1850
+Wire Wire Line
+	2550 1850 2150 1850
+$Comp
+L FPGA_Lattice:ICE40HX1K-TQ144 U1
+U 1 1 5E8DB48B
+P 4750 2950
+F 0 "U1" H 5130 3078 50  0000 L CNN
+F 1 "ICE40HX1K-TQ144" H 5130 2987 50  0000 L CNN
+F 2 "RFID:ICE40-CM" H 4750 1500 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 3900 4350 50  0001 C CNN
+	1    4750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2850 1200 2850
+Wire Wire Line
+	1200 2850 1200 4500
+Wire Wire Line
+	1200 4500 3150 4500
+Wire Wire Line
+	3150 4500 3150 4050
+Wire Wire Line
+	1450 2950 1150 2950
+Wire Wire Line
+	1150 2950 1150 4550
+Wire Wire Line
+	1150 4550 3100 4550
+Wire Wire Line
+	3100 4550 3100 3950
+Wire Wire Line
+	1450 3050 1100 3050
+Wire Wire Line
+	1100 3050 1100 4600
+Wire Wire Line
+	1100 4600 3050 4600
+Wire Wire Line
+	3050 4600 3050 3850
+Wire Wire Line
+	1450 3150 1050 3150
+Wire Wire Line
+	1050 3150 1050 4650
+Wire Wire Line
+	1050 4650 3000 4650
+Wire Wire Line
+	3000 4650 3000 3750
+Wire Wire Line
+	1450 3250 1000 3250
+Wire Wire Line
+	1000 3250 1000 4700
+Wire Wire Line
+	1000 4700 2950 4700
+Wire Wire Line
+	2950 4700 2950 3650
+Wire Wire Line
+	1450 3350 950  3350
+Wire Wire Line
+	950  3350 950  4750
+Wire Wire Line
+	950  4750 2900 4750
+Wire Wire Line
+	2900 4750 2900 3550
+Wire Wire Line
+	1450 3450 900  3450
+Wire Wire Line
+	900  3450 900  4800
+Wire Wire Line
+	900  4800 2850 4800
+Wire Wire Line
+	2850 4800 2850 3450
+Wire Wire Line
+	1450 3550 850  3550
+Wire Wire Line
+	850  3550 850  4850
+Wire Wire Line
+	850  4850 2800 4850
+Wire Wire Line
+	2800 3350 2800 4850
+Wire Wire Line
+	2600 1850 2600 4250
+Wire Wire Line
+	2600 4250 2550 4250
+Connection ~ 2550 4250
+Wire Wire Line
+	2650 1550 2650 2250
+Wire Wire Line
+	2650 2250 2150 2250
+Wire Wire Line
+	3150 4050 4250 4050
+Wire Wire Line
+	3100 3950 4250 3950
+Wire Wire Line
+	3050 3850 4250 3850
+Wire Wire Line
+	3000 3750 4250 3750
+Wire Wire Line
+	2950 3650 4250 3650
+Wire Wire Line
+	2900 3550 4250 3550
+Wire Wire Line
+	2850 3450 4250 3450
+Wire Wire Line
+	2800 3350 4250 3350
+Wire Wire Line
+	2650 1550 4750 1550
+Wire Wire Line
+	4250 3250 4200 3250
+Wire Wire Line
+	4200 3250 4200 4250
+Wire Wire Line
+	4200 4250 5200 4250
+Wire Wire Line
+	4250 3150 4150 3150
+Wire Wire Line
+	4150 3150 4150 4300
+Wire Wire Line
+	4150 4300 5250 4300
+Wire Wire Line
+	4250 3050 4100 3050
+Wire Wire Line
+	4100 3050 4100 4350
+Wire Wire Line
+	4250 2950 4050 2950
+Wire Wire Line
+	4050 2950 4050 4400
+Wire Wire Line
+	4250 2850 4000 2850
+Wire Wire Line
+	4000 2850 4000 4450
+Wire Wire Line
+	4250 2750 3950 2750
+Wire Wire Line
+	3950 2750 3950 4500
+Wire Wire Line
+	3900 2650 3900 4550
+Wire Wire Line
+	3850 2550 3850 4600
+Wire Wire Line
+	3800 2450 3800 4650
+Wire Wire Line
+	3750 2350 3750 4700
+Wire Wire Line
+	3700 2250 3700 4750
+Wire Wire Line
+	3650 2150 3650 4800
+Wire Wire Line
+	3600 2050 3600 4850
+Wire Wire Line
+	3550 1950 3550 4900
+$Comp
+L Timer:NA555 U2
+U 1 1 5E9508EF
+P 5800 3700
+F 0 "U2" H 5800 4281 50  0000 C CNN
+F 1 "NA555" H 5800 4190 50  0000 C CNN
+F 2 "Oscillator:Oscillator_SMD_SI570_SI571_Standard" H 5800 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 5800 3700 50  0001 C CNN
+	1    5800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2250 3500 2250
+Wire Wire Line
+	3500 2250 3500 1500
+Wire Wire Line
+	3500 1500 5150 1500
+Wire Wire Line
+	5150 1500 5150 3700
+Wire Wire Line
+	5150 3700 5300 3700
+Connection ~ 2650 2250
+Wire Wire Line
+	5200 4250 5200 3500
+Wire Wire Line
+	5200 3500 5300 3500
+Connection ~ 5200 4250
+Wire Wire Line
+	5250 4300 5250 3900
+Wire Wire Line
+	5250 3900 5300 3900
+Connection ~ 5250 4300
+Wire Wire Line
+	5200 4250 6600 4250
+Wire Wire Line
+	5250 4300 6600 4300
+Wire Wire Line
+	4100 4350 6350 4350
+Wire Wire Line
+	4050 4400 6400 4400
+Wire Wire Line
+	4000 4450 6450 4450
+Wire Wire Line
+	3950 4500 6600 4500
+Wire Wire Line
+	3900 4550 6600 4550
+Wire Wire Line
+	3850 4600 6600 4600
+Wire Wire Line
+	3800 4650 6600 4650
+Wire Wire Line
+	3750 4700 6600 4700
+Wire Wire Line
+	3700 4750 6600 4750
+Wire Wire Line
+	3650 4800 6600 4800
+Wire Wire Line
+	3600 4850 6600 4850
+Wire Wire Line
+	3550 4900 6600 4900
+Wire Wire Line
+	6300 3900 6350 3900
+Wire Wire Line
+	6300 3700 6400 3700
+Wire Wire Line
+	6300 3500 6450 3500
+Wire Wire Line
+	6350 3900 6350 4350
+Connection ~ 6350 4350
+Wire Wire Line
+	6350 4350 6600 4350
+Wire Wire Line
+	6400 3700 6400 4400
+Connection ~ 6400 4400
+Wire Wire Line
+	6400 4400 6600 4400
+Wire Wire Line
+	6450 3500 6450 4450
+Connection ~ 6450 4450
+Wire Wire Line
+	6450 4450 6600 4450
+Wire Wire Line
+	5800 4100 5300 4100
+Wire Wire Line
+	5300 4100 5300 3900
+Wire Wire Line
+	5300 3450 5200 3450
+Wire Wire Line
+	5200 3450 5200 1450
+Wire Wire Line
+	5200 1450 2150 1450
+Connection ~ 5300 3500
+Wire Wire Line
+	5300 3500 5300 3450
+Connection ~ 5300 3700
+Wire Wire Line
+	5300 3700 5300 3500
+Connection ~ 5300 3900
+Wire Wire Line
+	5300 3900 5300 3700
+NoConn ~ 2000 1750
+Wire Notes Line
+	6800 5000 6800 700 
+Wire Notes Line
+	700  700  700  5000
+Wire Notes Line
+	700  5000 6800 5000
+Wire Notes Line
+	700  700  6800 700 
+Text Notes 3950 950  0    118  ~ 0
+READER + LEARNING CIRCUIT
+NoConn ~ 6600 4250
+NoConn ~ 6600 4300
+NoConn ~ 6600 4350
+NoConn ~ 6600 4400
+NoConn ~ 6600 4450
+NoConn ~ 6600 4500
+NoConn ~ 6600 4550
+NoConn ~ 6600 4600
+NoConn ~ 6600 4650
+NoConn ~ 6600 4700
+NoConn ~ 6600 4750
+NoConn ~ 6600 4800
+NoConn ~ 6600 4850
+NoConn ~ 6600 4900
+Text Notes 2650 2400 0    39   ~ 0
+from FPGA to 555
+Text Notes 4200 1300 0    39   ~ 0
+555 can be used to sync RAM write to FPGA out, and RAM can store\nvalid chip IDs and other such information - basically a dictionary for\neach card added to the system. FPGA can handle adding cards to the\nsystem, and graphically displaying info on an LCD display.
+Text Notes 6750 4950 1    39   ~ 0
+to RAM and LCD Display
+Wire Wire Line
+	2150 1450 2150 1650
+Wire Wire Line
+	2150 1650 2150 1850
+Connection ~ 2150 1650
+$Comp
+L rfid-rc522-module:RFID-RC522-MODULE P1
+U 1 1 5E8CD7FE
+P 1950 1100
+F 0 "P1" H 2578 1020 60  0000 L CNN
+F 1 "RFID-RC522-MODULE" H 2578 914 60  0000 L CNN
+F 2 "RFID:RFID-RC522" H 1950 1100 60  0001 C CNN
+F 3 "" H 1950 1100 60  0000 C CNN
+	1    1950 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2650 4250 2650
+Wire Wire Line
+	3850 2550 4250 2550
+Wire Wire Line
+	3800 2450 4250 2450
+Wire Wire Line
+	3750 2350 4250 2350
+Wire Wire Line
+	3700 2250 4250 2250
+Wire Wire Line
+	3650 2150 4250 2150
+Wire Wire Line
+	3600 2050 4250 2050
+Wire Wire Line
+	3550 1950 4250 1950
+Wire Wire Line
+	2600 1850 4250 1850
+$EndSCHEMATC
